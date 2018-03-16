@@ -40,3 +40,17 @@ following command:
 ```
 git log
 ```
+
+## Pull
+In order to bring on your local station all the changes done on the remote
+repository, you need to pull the changes:
+```
+git pull
+```
+Check again that you have all four versions in the log:
+```
+git log
+```
+
+## Finish
+**TODO**: Replace this line with your acknowledgement :).
