@@ -16,3 +16,16 @@ git config --global user.email "YOUR@EMAIL.ADDRESS"
 ```
 Run these commands on your local computer; make sure you use a valid name and
 email address!
+
+## Cloning
+In order to modify the sources of this repository, you need to bring the
+sources on your local computer. This is done by cloning the remote repository
+from GitLab.
+```
+git clone git@gitlab.cs.pub.ro:razvan.crainea/git-tutorial.git
+```
+The command above will clone the repository in the `git-tutorial` folder in
+the current directory. Go to your new local git repository:
+```
+cd git-tutorial
+```
