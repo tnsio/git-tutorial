@@ -1,18 +1,23 @@
-# Welcome the git tutorial Introduction!
-This tutorial aims to teach you how to use `git` in an efficient manner for
-your projects.  This guide does not focus on `git` commands,  but rather on
-the things you need to do in order to write code in an easy to maintain
-fashion.
+# Welcome the git help tutorial!
+The `git-help` tool found in this repository can be ran to find out more
+information about git commands.
 
-## Identity
-When using `git` for the first time, the first step you need to do is to
-identify yourself, so that whoever is interested in the portion of code you
-wrote, they can easily reach you for further questions.  In order to identify
-yourself, you need to specify your name and email address to the `git` engine.
-This is intuitively done using the `git config` command:
+## Compile
+You can compile the program using the `Makefile` in this project:
 ```
-git config --global user.name "YOUR NAME"
-git config --global user.email "YOUR@EMAIL.ADDRESS"
+make
 ```
-Run these commands on your local computer; make sure you use a valid name and
-email address!
+will generate the `git-help` executable.
+
+## Usage
+When ran without parameters, the program returns the man page of the main git
+command:
+```
+./git-help
+```
+
+The program can also receive a parameter that indicates which command we want
+to get more information about:
+```
+./git-help commit
+```
